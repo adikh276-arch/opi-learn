@@ -461,6 +461,8 @@
 
 
 
+
+
         let read_opioid = JSON.parse(localStorage.getItem('read_opioid') || '[]');
 
         // Move hook to top to avoid race conditions
@@ -598,6 +600,8 @@
 
         // Re-run init if needed
         if (!window.i18nData) init();
+    
+    
     
     
     
